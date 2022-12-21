@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+  background-color: #f3f5fc;
+}
+
+.container-grid {
+  max-width: 1600px;
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 2fr 400px;
+  gap: 2rem;
+}
+
+.container-form {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  justify-content: center;
+  gap: 10rem 0;
+}
+
+.logo {
+  margin-block: 1.5rem;
+  height: fit-content;
+}
+
+form {
+  grid-row: 2;
+  grid-column: 2;
+  display: grid;
+  gap: 1rem;
+}
+
+textarea,
+textarea::placeholder {
+  color: #0a3871;
+}
+
+textarea {
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  line-height: 1.5;
+  height: 50vh;
+  outline: none;
+}
+.form-info {
+  color: #495057;
+  font-size: 0.75rem;
+}
+.form-buttons {
+  display: flex;
+  gap: 1rem;
+}
+.form-buttons button {
+  width: 50%;
+  border: 1px solid #0a3871;
+  padding-block: 1.2rem;
+  border-radius: 20px;
+  text-transform: capitalize;
+  color: #0a3871;
+  cursor: pointer;
+}
+.form-buttons button:first-child {
+  background: #0a3871;
+  color: #fff;
+  border: none;
+}
+
+.container-phrase {
+  background: #fff;
+  box-shadow: 0 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 30px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-phrase.activate {
+  grid-template-columns: 1fr;
+  grid-auto-rows: max-content;
+  gap: 0.7rem;
+  padding: 2rem 1rem 1rem 2rem;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.phrase_empty {
+  text-align: center;
+}
+.phrase_empty h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+.phrase_empty img {
+  margin: 0 auto;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  cursor: pointer;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 0.3rem;
+  border-radius: 10px;
+}
+
+.item:hover {
+  background: #f9f9f9;
+}
+.item::after {
+  content: "";
+  display: block;
+  height: 29px;
+  width: 29px;
+  background: url("../img/copy.png");
+}
+
+.item.copied::after {
+  content: "✔";
+  background: transparent;
+  font-size: 1rem;
+}

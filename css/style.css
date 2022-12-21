@@ -145,8 +145,10 @@ textarea {
   .container-grid {
     display: flex;
     flex-direction: column;
+    gap: 2rem;
   }
   .logo {
+    margin: 1rem 0;
     align-self: flex-start;
     padding: 0;
   }
@@ -175,8 +177,10 @@ textarea {
   .phrase_empty h1 {
     width: 20ch;
   }
-
   .phrase_empty p {
     width: 25ch;
+  }
+  .container-phrase {
+    margin-bottom: 1rem;
   }
 }

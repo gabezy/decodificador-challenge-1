@@ -131,5 +131,5 @@ textarea {
 .item.copied::after {
   content: "✔";
   background: transparent;
-  font-size: 1rem;
+  color: #0a3871;
 }

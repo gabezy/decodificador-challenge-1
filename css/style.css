@@ -18,7 +18,7 @@ body {
   max-width: 1600px;
   margin: 1rem auto;
   display: grid;
-  grid-template-columns: 2fr 400px;
+  grid-template-columns: 1fr 400px;
   gap: 2rem;
 }
 
@@ -53,6 +53,7 @@ textarea {
   line-height: 1.5;
   height: 50vh;
   outline: none;
+  resize: none;
 }
 .form-info {
   color: #495057;
@@ -61,8 +62,10 @@ textarea {
 .form-buttons {
   display: flex;
   gap: 1rem;
+  margin-bottom: 1rem;
 }
-.form-buttons button {
+.form-buttons button,
+.copy-btn {
   width: 50%;
   border: 1px solid #0a3871;
   padding-block: 1.2rem;

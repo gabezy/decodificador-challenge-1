@@ -19,7 +19,7 @@ body {
   margin: 1rem auto;
   display: grid;
   grid-template-columns: auto 2fr 1fr;
-  gap: 5rem 1rem;
+  gap: 5rem 3rem;
   padding: 0 1rem;
 }
 

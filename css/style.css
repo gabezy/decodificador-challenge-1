@@ -11,7 +11,7 @@ img {
 }
 
 body {
-  background-color: #f3f5fc;
+  background-color: #e9ecf8;
 }
 
 .container-grid {
@@ -67,6 +67,7 @@ textarea {
   padding-block: 1.2rem;
   border-radius: 20px;
   text-transform: capitalize;
+  background: transparent;
   color: #0a3871;
   cursor: pointer;
 }

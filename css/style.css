@@ -54,6 +54,13 @@ textarea {
 .form-info {
   color: #495057;
   font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 3px;
+}
+.form-info > img {
+  width: 17px;
 }
 .form-buttons {
   display: flex;

@@ -4,6 +4,8 @@
 
 <br>
 
+<img src="./src/img/Decoder _ Alura.gif" alt="prjeto rondando .gif" style="margin: 0 auto; width: 540px"  />
+
 This project was carried out during the "ONE - Oracle Next Education" program, a partnership between Alura and Oracle.
 
 The objective of the challenge is to built a web application that can encrypt and decrypt a given text based on the encryption "keys", which are:
@@ -22,7 +24,7 @@ The objective of the challenge is to built a web application that can encrypt an
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.2.0/icons/typescript.svg" alt="" width="50">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.2.0/icons/sass.svg" alt="" width="50">
   <img src="https://cdn.jsdelivr.net/npm/simple-icons@8.2.0/icons/vite.svg" alt="" width="50">
-  <img src="./img/html.png" alt="" width="50">
+  <img src="./src/img/html.png" alt="" width="50">
 </div>
 <br>
 <br>

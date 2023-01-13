@@ -8,10 +8,14 @@ const buttonDecryption = <HTMLButtonElement>(
   document.querySelector("[data-uncripto]")
 );
 const phraseDisplay = <HTMLDivElement>(
-  document.querySelector(".container-phrase")
+  document.querySelector(".container__display")
 );
-const textarea = <HTMLTextAreaElement>document.querySelector("form > textarea");
-const textNotFoundDiv = <HTMLDivElement>document.querySelector(".phrase_empty");
+const textarea = <HTMLTextAreaElement>(
+  document.querySelector(".container__form__input")
+);
+const textNotFoundDiv = <HTMLDivElement>(
+  document.querySelector(".container__display__notext")
+);
 
 const events = ["click", "touchstart"];
 

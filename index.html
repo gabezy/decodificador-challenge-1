@@ -14,29 +14,29 @@
 </head>
 
 <body>
-  <div class="container-grid">
-    <a href="index.html" class="logo">
+  <main class="container">
+    <a href="index.html" class="container__logo">
       <img src="./src/img/logo.svg" alt="alura logo">
     </a>
-    <form>
-      <textarea name="text" id="text" placeholder="Digite seu texto"></textarea>
-      <p class="form-info">
+    <form class="container__form">
+      <textarea class="container__form__input" name="text" id="text" placeholder="Digite seu texto"></textarea>
+      <p class="container__form__paragraph">
         <img src="./src/img/info.svg" alt="" class="info">
         Apenas letras minúsculas e sem acento
       </p>
-      <div class="form-buttons">
-        <button data-cripto>Criptografar</button>
-        <button data-uncripto>Descriptografar</button>
+      <div class="container__form___buttons">
+        <button class="button form__button--primary" data-cripto>Criptografar</button>
+        <button class="button form__button--secondary" data-uncripto>Descriptografar</button>
       </div>
     </form>
-    <div class="container-phrase">
-      <div class="phrase_empty">
-        <img src="./src/img/img1.svg" alt="" class="img-phrase">
-        <h1>Nenhuma mensagem encontrada</h1>
-        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+    <div class="container__display">
+      <div class="container__display__notext">
+        <img src="./src/img/img1.svg" alt="" class="container__display__notext__img">
+        <h1 class="container__display__notext__heading">Nenhuma mensagem encontrada</h1>
+        <p class="container__display__notext__paragraph">Digite um texto que você deseja criptografar ou descriptografar.</p>
       </div>
     </div>
-  </div>
+  </main>
 
   <script type="module" src="src/main.ts"></script>
 </body>

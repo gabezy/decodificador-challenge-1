@@ -12,8 +12,8 @@ const renderText = (
     }
   };
 
-  const para = document.createElement("P");
-  para.classList.add("item");
+  const para = document.createElement("p");
+  para.classList.add("container__display__item");
   para.innerText = text;
   element.appendChild(para);
   element.classList.add("activate");
